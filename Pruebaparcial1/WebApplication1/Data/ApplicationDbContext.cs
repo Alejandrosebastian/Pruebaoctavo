@@ -23,6 +23,10 @@ namespace WebApplication1.Data
             // Add your customizations after calling base.OnModelCreating(builder);
         }
 
+<<<<<<< HEAD
+        public DbSet<WebApplication1.Models.Estudios> Estudios { get; set; }
+=======
         public DbSet<WebApplication1.Models.Desempleado> Desempleado { get; set; }
+>>>>>>> d99ebaed697c825e754c294cc1238e1f9074b65e
     }
 }
